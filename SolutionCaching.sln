@@ -3,8 +3,57 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciCaching", "Caching\FibonacciCaching\FibonacciCaching.csproj", "{5F3385D1-FAA1-4DCA-84D4-AFCD985BD1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciConsole", "Caching\FibonacciConsole\FibonacciConsole.csproj", "{75CBE68D-976D-4BC5-B94C-586D4775920B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci", "Fibonacci", "{3B8586E5-D491-463D-8C28-204163196B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbCaching", "DbCaching", "{4FEC6ADF-AA35-4FA9-8AB6-1728CEA27748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C2889642-1039-453F-BD6F-8082FC7E265C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CachingSolutionsSamples", "CachingSolutionsSamples", "{6BABD872-7172-434E-9F19-F53B135846A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthwindLibrary", "NorthwindLibrary", "{AFB9CA83-23E8-4DAA-AAF4-78347BC68878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingSolutionsSamples", "Samples\Application\CachingSolutionsSamples\CachingSolutionsSamples.csproj", "{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindLibrary", "Samples\Application\NorthwindLibrary\NorthwindLibrary.csproj", "{83072721-060E-4738-9ABD-7711C4F07ED2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F3385D1-FAA1-4DCA-84D4-AFCD985BD1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3385D1-FAA1-4DCA-84D4-AFCD985BD1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3385D1-FAA1-4DCA-84D4-AFCD985BD1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3385D1-FAA1-4DCA-84D4-AFCD985BD1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CBE68D-976D-4BC5-B94C-586D4775920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CBE68D-976D-4BC5-B94C-586D4775920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CBE68D-976D-4BC5-B94C-586D4775920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CBE68D-976D-4BC5-B94C-586D4775920B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83072721-060E-4738-9ABD-7711C4F07ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83072721-060E-4738-9ABD-7711C4F07ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83072721-060E-4738-9ABD-7711C4F07ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83072721-060E-4738-9ABD-7711C4F07ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F3385D1-FAA1-4DCA-84D4-AFCD985BD1C0} = {3B8586E5-D491-463D-8C28-204163196B2A}
+		{75CBE68D-976D-4BC5-B94C-586D4775920B} = {3B8586E5-D491-463D-8C28-204163196B2A}
+		{C2889642-1039-453F-BD6F-8082FC7E265C} = {4FEC6ADF-AA35-4FA9-8AB6-1728CEA27748}
+		{6BABD872-7172-434E-9F19-F53B135846A1} = {C2889642-1039-453F-BD6F-8082FC7E265C}
+		{AFB9CA83-23E8-4DAA-AAF4-78347BC68878} = {C2889642-1039-453F-BD6F-8082FC7E265C}
+		{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C} = {6BABD872-7172-434E-9F19-F53B135846A1}
+		{83072721-060E-4738-9ABD-7711C4F07ED2} = {AFB9CA83-23E8-4DAA-AAF4-78347BC68878}
 	EndGlobalSection
 EndGlobal
